@@ -73,7 +73,7 @@ def run_demo():
     current_round = 10
     print_section(f"Step 3: Current Round Analysis (Round {current_round})")
     
-    print("\n🔮 PREDICTIVE FORECASTS:")
+    print("\n PREDICTIVE FORECASTS:")
     forecasts = analytics.forecast_all_departments(current_round)
     
     for dept, forecast in forecasts.items():
